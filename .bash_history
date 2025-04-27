@@ -56,3 +56,16 @@ git branch -M main
 # 6. Push to GitHub
 git push -u origin main
 git init
+# 1. Initialize git (already done, but just to confirm)
+git init
+# 2. Add the remote GitHub repository
+git remote add origin https://github.com/fareed-devops-fareed-devops-project.git
+# Example: git remote add origin https://github.com/fareeduddin/fareed-devops-project.git
+# 3. Add all files to staging
+git add .
+# 4. Commit the files with a message
+git commit -m "Added Python scripts and CSV for AWS project"
+# 5. Set the branch to main
+git branch -M main
+# 6. Push to GitHub
+git push -u origin main
